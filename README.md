@@ -1,6 +1,6 @@
 # AliyunGo: Go SDK for Aliyun Services
 
-This is an unofficial Go SDK for Aliyun Services
+This is an unofficial Go SDK for Aliyun Services. You are welcome for contribution.
 
 
 ## Package Structure
@@ -9,8 +9,13 @@ This is an unofficial Go SDK for Aliyun Services
 *  oss: [Open Storage Service](https://help.aliyun.com/document_detail/oss/api-reference/abstract.html)
 *  slb: [Server Load Balancer](https://help.aliyun.com/document_detail/slb/api-reference/brief-introduction.html)
 *  dns: [DNS](https://help.aliyun.com/document_detail/dns/api-reference/summary.html)
-*  sls: [SLS](https://help.aliyun.com/document_detail/sls/api/overview.html)
-*  ram: [RAM](https://help.aliyun.com/document_detail/ram/ram-api-reference/intro/intro.html)
+*  sls: [Logging Service](https://help.aliyun.com/document_detail/sls/api/overview.html)
+*  ram: [Resource Access Management](https://help.aliyun.com/document_detail/ram/ram-api-reference/intro/intro.html)
+*  rds: [Relational Database Service](https://help.aliyun.com/document_detail/26226.html)
+*  cms: [Cloud Monitor Service](https://help.aliyun.com/document_detail/28615.html)
+*  sts: [Security Token Service](https://help.aliyun.com/document_detail/28756.html)
+*  dm: [Direct Mail]
+(https://help.aliyun.com/document_detail/29414.html)
 *  common: Common libary of Aliyun Go SDK
 *  util: Utility helpers
 
@@ -43,8 +48,13 @@ func main() {
   *  OSS: [https://godoc.org/github.com/denverdino/aliyungo/oss](https://godoc.org/github.com/denverdino/aliyungo/oss) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/oss?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/oss)
   *  SLB: [https://godoc.org/github.com/denverdino/aliyungo/slb](https://godoc.org/github.com/denverdino/aliyungo/slb) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/slb?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/slb)
   *  DNS: [https://godoc.org/github.com/denverdino/aliyungo/dns](https://godoc.org/github.com/denverdino/aliyungo/dns) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/dns?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/dns)
-
-
+  *  SLS: [https://godoc.org/github.com/denverdino/aliyungo/sls](https://godoc.org/github.com/denverdino/aliyungo/sls) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/sls?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/sls)
+  *  RAM: [https://godoc.org/github.com/denverdino/aliyungo/ram](https://godoc.org/github.com/denverdino/aliyungo/ram) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/ram?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/ram)
+  *  RDS: [https://godoc.org/github.com/denverdino/aliyungo/rds](https://godoc.org/github.com/denverdino/aliyungo/rds) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/rds?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/rds)
+  *  CMS: [https://godoc.org/github.com/denverdino/aliyungo/cms](https://godoc.org/github.com/denverdino/aliyungo/cms) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/cms?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/cms)
+  *  STS: [https://godoc.org/github.com/denverdino/aliyungo/sts](https://godoc.org/github.com/denverdino/aliyungo/sts) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/sts?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/sts)
+  *  DM: [https://godoc.org/github.com/denverdino/aliyungo/dm](https://godoc.org/github.com/denverdino/aliyungo/dm) [![GoDoc](https://godoc.org/github.com/denverdino/aliyungo/dm?status.svg)](https://godoc.org/github.com/denverdino/aliyungo/dm)
+    
 ## Build and Install
 
 go get:
@@ -108,6 +118,14 @@ go test
   * linuxlikerqq
   * Changhai Yan (changhai.ych@alibaba-inc.com)
   * Jizhong Jiang (jiangjizhong@gmail.com)
+  * Kent Wang (pragkent@gmail.com)
+  * ringtail (zhongwei.lzw@alibaba-inc.com)
+  * aiden0z (aiden0xz@gmail.com)
+  * jimmycmh
+  * menglingwei
+  * mingang.he (dustgle@gmail.com)
+  * chainone (chainone@gmail.com)
+  * johnzeng
 
 ## License
 This project is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/denverdino/aliyungo/blob/master/LICENSE.txt) for the full license text.
